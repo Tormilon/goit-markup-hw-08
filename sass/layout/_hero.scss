@@ -1,0 +1,20 @@
+.hero {
+    max-width: 1600px;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    background: var(--footer-dark-color);
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4),
+            rgba(47, 48, 58, 0.4)),
+        url(../images/cta-section.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    padding: 200px 0;
+}
+
+.hero__button:hover,
+.hero__button:focus {
+    background-color: #188ce8;
+    color: #FFFfFF;
+}

@@ -1,0 +1,38 @@
+.header {
+    outline: 1px solid #ECECEC;
+
+    &__container {
+        padding-left: 15px;
+        padding-right: 15px;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        align-items: center;
+    }
+
+    &__list {
+        margin-left: 93px;
+        padding-left: 0;
+    }
+
+    &__item {
+        position: relative;
+        display: inline-block;
+    }
+
+    &__link {
+        font-weight: 500;
+        line-height: 1.14;
+        display: inline-block;
+        color: var(--title-text-color);
+        text-decoration: none;
+        transition: color 250ms var(--timing-function);
+        padding-top: 32px;
+        padding-bottom: 32px;
+    }
+
+
+
+
+
+}

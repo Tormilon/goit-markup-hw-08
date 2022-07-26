@@ -1,0 +1,43 @@
+.header__logo-accent-text {
+    color: var(--primary-white-color);
+}
+
+.header__list,
+.header__main-nav {
+    display: flex;
+    align-items: center;
+}
+
+.current::after {
+    position: absolute;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 4px;
+    width: 100%;
+    background-color: var(--accent-color);
+    border-radius: 2px;
+}
+
+.header__link:hover,
+.header__link:focus {
+    color: var(--accent-color);
+}
+
+
+.header__list .header__item+.header__item {
+    margin-left: 50px;
+}
+
+.contacts .contacts__item+.contacts__item {
+    margin-left: 50px;
+}
+
+.header__link.current {
+    color: var(--accent-color);
+}
+
+.contacts__link:hover,
+.contacts__link:focus {
+    color: var(--accent-color);
+}
