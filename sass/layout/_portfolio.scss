@@ -68,6 +68,11 @@
     }
 }
 
+.portfolio__filter-btn.active {
+    color: $footer-color;
+    background-color: $accent-color;
+}
+
 .portfolio__project-list {
     display: flex;
     flex-direction: column;
